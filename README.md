@@ -10,7 +10,7 @@ apm install atom-tachyons
 ## Key Features:
 
   - Supports autocompletion of all helper classes in JavaScript, CSS and HTML
-  - Snippet support for all [components][2].
+  - Snippet support for all [components][2] in js, jsx, and html files.
 
 ## Components
 
