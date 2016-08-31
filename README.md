@@ -16,11 +16,23 @@ Key Features:
 
 All components also have autocompletion support for extra options.
 
+### Articles
+  - `large-title-text`
+  - `left-title-top`
+  - `left-title`
+  - `title-text-image`
+  - `title-text`
 
+### Collections
+  - `news-card`
+  - `product-card`
+  - `profile-card-title`
+  - `profile-card`
+  - `text-card`
+
+more to come ... (or happy for a pr!)
 
 ### Notes
 
 
 [1]: http://tachyons.io/
-[2]: https://github.com/atom/snippets/issues/15
-[3]: http://atom.io/packages/atom-html-preview
