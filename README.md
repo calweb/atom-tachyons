@@ -12,12 +12,6 @@ Key Features:
   - Supports autocompletion of all helper classes in JavaScript, CSS and HTML
   - Snippet support for all components.
 
-## Templates
-
-  - `html-`: Generates Basic HTML Template
-  - `html-min`: Generates Basic HTML Template without comments
-  - `html-oi`: Generates Basic HTML Template (replace `fontawesome` in favor of `octicons`)
-
 ## Components
 
 All components also have autocompletion support for extra options.
