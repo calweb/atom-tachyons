@@ -30,6 +30,18 @@ All components also have autocompletion support for extra options.
   - `profile-card`
   - `text-card`
 
+### Footers
+  - `simple-large-type`
+  - `small-print`
+  - `social-circles`
+  - `social-text`
+  - `social`
+
+### Headers
+  - `circle-avatar-title`
+  - `fixed-semi-transparent`
+  - `rounded-avatar-title`
+
 more to come ... (or happy for a pr!)
 
 ### Notes
