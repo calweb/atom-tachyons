@@ -1,6 +1,6 @@
 # Tachyon Support for Atom
 
-Provides [Tachyon][1] classes with autocompletion features.
+Provides [Tachyon][1] classes with autocompletion and [component][2] snippets.
 
 ## Install:
 ```bash
