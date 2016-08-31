@@ -1,0 +1,149 @@
+".text.html":
+
+  'News Card':
+    'prefix': 'news-card'
+    'body': """
+    <article class="bg-white center mw5 ba b--black-10 mv4">
+      <div class="pv2 ph3">
+         <h1 class="f6 ttu tracked">$1</h1>
+      </div>
+      <img src="${2:http://lorempixel.com/400/200/animals/}" class="w-100 db" alt="$3">
+      <div class="pa3">
+        <a href="#" class="link dim lh-title">$4</a>
+        <small class="gray db pv2">${5: AMP - <time>6 hours ago</time>}</small>
+      </div>
+    </article>
+    """
+
+  'Product Card':
+    'prefix': 'product-card'
+    'body': """
+    <article class="br2 ba dark-gray b--black-10 mv4 w-100 w-50-m w-25-l mw5 center">
+      <img src="${1:http://placekitten.com/g/600/300}" class="db w-100 br2 br--top" alt="$2">
+      <div class="pa2 ph3-ns pb3-ns">
+        <div class="dt w-100 mt1">
+          <div class="dtc">
+            <h1 class="f5 f4-ns mv0">${3:Cat}</h1>
+          </div>
+          <div class="dtc tr">
+            <h2 class="f5 mv0">${4:$1000.00}</h2>
+          </div>
+        </div>
+        <p class="f6 lh-copy measure mt2 mid-gray">
+          $5
+        </p>
+      </div>
+    </article>
+    """
+
+  'Profile Card Title Subtitle':
+    'prefix': 'profile-card-title'
+    'body': """
+    <article class="mw5 center bg-white br3 pa3 pa4-ns mv3 ba b--black-10">
+      <div class="tc">
+        <img src="${1:http://placekitten.com/g/600/300}" class="br-100 h4 w4 dib ba b--black-05 pa2" title="${2:Kitty}">
+        <h1 class="f3 mb2">${3:Title}</h1>
+        <h2 class="f5 fw4 gray mt0">${4:Subtitle}</h2>
+      </div>
+    </article>
+    """
+
+  'Profile Card':
+    'prefix': 'profile-card'
+    'body': """
+    <article class="mw5 center bg-white br3 pa3 pa4-ns mv3 ba b--black-10">
+      <div class="tc">
+        <img src="${1:http://placekitten.com/g/600/300}" class="br-100 h3 w3 dib" title="${2:Kitty}">
+        <h1 class="f4">${3:Title}</h1>
+        <hr class="mw3 bb bw1 b--black-10">
+      </div>
+      <p class="lh-copy measure center f6 black-70">
+        $4
+      </p>
+    </article>
+    """
+
+  'Text Card':
+    'prefix': 'text-card'
+    'body': """
+    <article class="center mw5 mw6-ns br3 hidden ba b--black-10 mv4">
+      <h1 class="f4 bg-near-white br3 br--top black-60 mv0 pv2 ph3">$1</h1>
+      <div class="pa3 bt b--black-10">
+        <p class="f6 f5-ns lh-copy measure">
+          $2
+        </p>
+      </div>
+    </article>
+    """
+
+  'Large Title Text':
+    'prefix': 'large-title-text'
+    'body': """
+    <article class="pa3 pa5-ns">
+      <h1 class="f2 f-subheadline-ns mb4">$1</h1>
+      <p class="gray f6 mb4 ttu tracked">$2</p>
+      <p class="f4 f3-ns measure lh-copy">
+        $3
+      </p>
+    </article>
+    """
+
+  'Left Title Top Border':
+    'prefix': 'left-title-top'
+    'body': """
+    <article class="cf ph3 ph5-ns pv5">
+      <header class="fn fl-ns w-50-ns pr4-ns">
+        <h1 class="f2 lh-title fw9 mb3 mt0 pt3 bt bw2">
+          $1
+        </h1>
+        <h2 class="f3 mid-gray lh-title">
+          $2
+        </h2>
+        <time class="f6 ttu tracked gray">${3:Time ago}</time>
+      </header>
+      <div class="fn fl-ns w-50-ns">
+        <p class="f5 lh-copy measure mt0-ns">
+          $4
+        </p>
+      </div>
+    </article>
+    """
+
+  'Left Title':
+    'prefix': 'left-title'
+    'body': """
+    <article class="cf ph3 ph5-ns pv5">
+      <header class="fn fl-ns w-50-ns pr4-ns">
+        <h1 class="mb3 mt0 lh-title">$1</h1>
+        <time class="f6 ttu tracked gray">${2:Time ago}</time>
+      </header>
+      <div class="fn fl-ns w-50-ns">
+        <p class="lh-copy measure mt4 mt0-ns">
+          $3
+        </p>
+      </div>
+    </article>
+    """
+
+  'Title Text Image':
+    'prefix': 'title-text-image'
+    'body': """
+    <article class="pa3 pa5-ns">
+      <h1 class="f2">$1</h1>
+      <img src="$2" class="w-100 f5 measure" alt="outer space">
+      <p class="measure lh-copy">
+        $3
+      </p>
+    </article>
+    """
+
+  'Title Text':
+    'prefix': 'title-text'
+    'body': """
+    <article class="pa3 pa5-ns">
+      <h1 class="">$1</h1>
+      <p class="measure lh-copy">
+        $2
+      </p>
+    </article>
+    """
