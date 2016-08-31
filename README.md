@@ -2,19 +2,19 @@
 
 Provides [Tachyon][1] classes with autocompletion features.
 
-Install:
+## Install:
 ```bash
 apm install atom-tachyons
 ```
 
-Key Features:
+## Key Features:
 
   - Supports autocompletion of all helper classes in JavaScript, CSS and HTML
-  - Snippet support for all components.
+  - Snippet support for all [components][2].
 
 ## Components
 
-All [components](http://tachyons.io/components/) also have autocompletion support for extra options.
+All [components][2] also have autocompletion support for extra options.
 
 ### Articles
   - `large-title-text`
@@ -69,3 +69,4 @@ All [components](http://tachyons.io/components/) also have autocompletion suppor
 
 
 [1]: http://tachyons.io/
+[2]: http://tachyons.io/components/
