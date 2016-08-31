@@ -324,3 +324,378 @@
       <h2 class="f6 black-70 fw2 ttu tracked">${3:Charleston, SC}</h2>
     </header>
     """
+
+  'Centered Container':
+    'prefix': 'centered-container'
+    'body': """
+    <section class="mw5 mw7-ns center bg-light-gray pa3 ph5-ns">
+      <h1 class="mt0">Centered Container</h1>
+      <p class="lh-copy measure">
+        Combine width or max-width values with the center class to create a centered
+        container for your content.
+      </p>
+    </section>
+    """
+
+  'Flag Object Collapse':
+    'prefix': 'flag-object-collapse'
+    'body': """
+    <div class="dt mw6 center pt0 pb5 pv5-m pv6-ns">
+      <div class="db dtc-ns v-mid-ns">
+        <img src="http://lorempixel.com/400/200/technics" alt="A bright blue sky" class="w-100 mw7 w5-ns" />
+      </div>
+      <div class="db dtc-ns v-mid ph2 pr0-ns pl3-ns">
+        <p class="lh-copy">
+          For desktop, this text is vertically aligned middle, no matter what the height of the image is.
+          On mobile, this is a paragraph below an image.
+        </p>
+      </div>
+    </div>
+    """
+
+  'Flag Object':
+    'prefix': 'flag-object'
+    'body': """
+    <div class="dt mw6 center pv4 pv5-m pv6-ns">
+      <div class="dtc v-mid">
+        <img src="http://lorempixel.com/400/200/sports/" alt="A bright blue sky" class="mw5" />
+      </div>
+      <div class="dtc v-mid pl3">
+        <p class="lh-copy">
+          This text is vertically aligned middle, no matter what the height of the image is.
+        </p>
+      </div>
+    </div>
+    """
+
+  'Four Column Collapse Two':
+    'prefix': 'four-column-collapse-two'
+    'body': """
+    <section class="cf">
+      <div class="fl w-50 w-25-ns"><img class="db w-100" src="http://lorempixel.com/400/200/animals" alt="night sky over house"></div>
+      <div class="fl w-50 w-25-ns"><img class="db w-100" src="http://lorempixel.com/400/200/animals" alt="night sky over water"></div>
+      <div class="fl w-50 w-25-ns"><img class="db w-100" src="http://lorempixel.com/400/200/animals" alt="bay bridge at night"></div>
+      <div class="fl w-50 w-25-ns"><img class="db w-100" src="http://lorempixel.com/400/200/animals" alt="night sky over land"></div>
+    </section>
+    """
+
+  'Four Column':
+    'prefix': 'four-column'
+    'body': """
+    <div class="cf">
+      <div class="fl w-25 tc pv5 bg-black-05">
+        1
+      </div>
+      <div class="fl w-25 tc pv5 bg-black-025">
+        2
+      </div>
+      <div class="fl w-25 tc pv5 bg-black-05">
+        3
+      </div>
+      <div class="fl w-25 tc pv5 bg-black-025">
+        4
+      </div>
+    </div>
+    """
+
+  'Two Column Collapse One':
+    'prefix': 'two-column-collapse-one'
+    'body': """
+    <article class="cf">
+      <div class="fl w-100 w-50-ns bg-near-white tc">
+        <h1>Column One</h1>
+      </div>
+      <div class="fl w-100 w-50-ns bg-light-gray tc">
+        <h1>Column Two</h1>
+      </div>
+    </article>
+    """
+
+  'Two Column':
+    'prefix': 'two-column'
+    'body': """
+    <article class="cf">
+      <div class="fl w-50 bg-near-white tc">
+        <h1>Column One</h1>
+      </div>
+      <div class="fl w-50 bg-light-gray tc">
+        <h1>Column Two</h1>
+      </div>
+    </article>
+    """
+
+  'Border Spaced':
+    'prefix': 'border-spaced'
+    'body': """
+    <article class="pa3 pa5-ns">
+      <h1 class="f4 bold center mw6">Cats</h1>
+      <ul class="list pl0 ml0 center mw6 ba b--light-silver br2">
+        <li class="ph3 pv3 bb b--light-silver">Mackeral Tabby</li>
+        <li class="ph3 pv3 bb b--light-silver">Burmese</li>
+        <li class="ph3 pv3 bb b--light-silver">Orange Tabby</li>
+        <li class="ph3 pv3 bb b--light-silver">Maine Coon</li>
+        <li class="ph3 pv3 bb b--light-silver">Siamese</li>
+        <li class="ph3 pv3 bb b--light-silver">Scottish Fold</li>
+        <li class="ph3 pv3">American Bobtail</li>
+      </ul>
+    </article>
+    """
+
+  'Border Tight':
+    'prefix': 'border-tight'
+    'body': """
+    <h1 class="f4 bold center mw5">Cats</h1>
+    <ul class="list pl0 ml0 center mw5 ba b--light-silver br3">
+      <li class="ph3 pv2 bb b--light-silver">Mackeral Tabby</li>
+      <li class="ph3 pv2 bb b--light-silver">Burmese</li>
+      <li class="ph3 pv2 bb b--light-silver">Maine Coon</li>
+      <li class="ph3 pv2 bb b--light-silver">Orange Tabby</li>
+      <li class="ph3 pv2 bb b--light-silver">Siamese</li>
+      <li class="ph3 pv2 bb b--light-silver">Scottish Fold</li>
+      <li class="ph3 pv2">American Bobtail</li>
+    </ul>
+    """
+
+  'Large Links Inline':
+    'prefix': 'large-links-inline'
+    'body': """
+    <ul class="list pa3 pa5-ns">
+      <li class="dib mr2"><a href="#" class="f4 f2-ns b db pa2 link dim mid-gray">Abyssinian</a></li>
+      <li class="dib mr2"><a href="#" class="f4 f2-ns b db pa2 link dim mid-gray">Aegean</a></li>
+      <li class="dib mr2"><a href="#" class="f4 f2-ns b db pa2 link dim mid-gray">Arabian</a></li>
+      <li class="dib mr2"><a href="#" class="f4 f2-ns b db pa2 link dim mid-gray">Australian</a></li>
+      <li class="dib mr2"><a href="#" class="f4 f2-ns b db pa2 link dim mid-gray">Asian</a></li>
+      <li class="dib mr2"><a href="#" class="f4 f2-ns b db pa2 link dim mid-gray">Balinese</a></li>
+      <li class="dib mr2"><a href="#" class="f4 f2-ns b db pa2 link dim mid-gray">Bambino</a></li>
+      <li class="dib mr2"><a href="#" class="f4 f2-ns b db pa2 link dim mid-gray">Bengal</a></li>
+      <li class="dib mr2"><a href="#" class="f4 f2-ns b db pa2 link dim mid-gray">Birman</a></li>
+      <li class="dib mr2"><a href="#" class="f4 f2-ns b db pa2 link dim mid-gray">Bombay</a></li>
+      <li class="dib mr2"><a href="#" class="f4 f2-ns b db pa2 link dim mid-gray">Brazilian</a></li>
+      <li class="dib mr2"><a href="#" class="f4 f2-ns b db pa2 link dim mid-gray">British</a></li>
+      <li class="dib mr2"><a href="#" class="f4 f2-ns b db pa2 link dim mid-gray">British</a></li>
+      <li class="dib mr2"><a href="#" class="f4 f2-ns b db pa2 link dim mid-gray">British</a></li>
+      <li class="dib mr2"><a href="#" class="f4 f2-ns b db pa2 link dim mid-gray">Burmese</a></li>
+      <li class="dib mr2"><a href="#" class="f4 f2-ns b db pa2 link dim mid-gray">Burmilla</a></li>
+      <li class="dib mr2"><a href="#" class="f4 f2-ns b db pa2 link dim mid-gray">California</a></li>
+      <li class="dib mr2"><a href="#" class="f4 f2-ns b db pa2 link dim mid-gray">Chantilly</a></li>
+      <li class="dib mr2"><a href="#" class="f4 f2-ns b db pa2 link dim mid-gray">Chartreux</a></li>
+      <li class="dib mr2"><a href="#" class="f4 f2-ns b db pa2 link dim mid-gray">Chausie</a></li>
+      <li class="dib mr2"><a href="#" class="f4 f2-ns b db pa2 link dim mid-gray">Cheetoh</a></li>
+      <li class="dib mr2"><a href="#" class="f4 f2-ns b db pa2 link dim mid-gray">Colorpoint</a></li>
+      <li class="dib mr2"><a href="#" class="f4 f2-ns b db pa2 link dim mid-gray">Cornish</a></li>
+      <li class="dib mr2"><a href="#" class="f4 f2-ns b db pa2 link dim mid-gray">Cymric</a></li>
+      <li class="dib mr2"><a href="#" class="f4 f2-ns b db pa2 link dim mid-gray">Cyprus</a></li>
+    </ul>
+    """
+
+  'Links Inline':
+    'prefix': 'links-inline'
+    'body': """
+    <ul class="list ph3 ph5-ns pv4">
+      <li class="dib mr2"><a href="#" class="f6 f5-ns b db pa2 link dim mid-gray">Abyssinian</a></li>
+      <li class="dib mr2"><a href="#" class="f6 f5-ns b db pa2 link dim mid-gray">Aegean</a></li>
+      <li class="dib mr2"><a href="#" class="f6 f5-ns b db pa2 link dim mid-gray">Arabian</a></li>
+      <li class="dib mr2"><a href="#" class="f6 f5-ns b db pa2 link dim mid-gray">Australian</a></li>
+      <li class="dib mr2"><a href="#" class="f6 f5-ns b db pa2 link dim mid-gray">Asian</a></li>
+      <li class="dib mr2"><a href="#" class="f6 f5-ns b db pa2 link dim mid-gray">Balinese</a></li>
+      <li class="dib mr2"><a href="#" class="f6 f5-ns b db pa2 link dim mid-gray">Bambino</a></li>
+      <li class="dib mr2"><a href="#" class="f6 f5-ns b db pa2 link dim mid-gray">Bengal</a></li>
+      <li class="dib mr2"><a href="#" class="f6 f5-ns b db pa2 link dim mid-gray">Birman</a></li>
+      <li class="dib mr2"><a href="#" class="f6 f5-ns b db pa2 link dim mid-gray">Bombay</a></li>
+      <li class="dib mr2"><a href="#" class="f6 f5-ns b db pa2 link dim mid-gray">Brazilian</a></li>
+      <li class="dib mr2"><a href="#" class="f6 f5-ns b db pa2 link dim mid-gray">British</a></li>
+      <li class="dib mr2"><a href="#" class="f6 f5-ns b db pa2 link dim mid-gray">British</a></li>
+      <li class="dib mr2"><a href="#" class="f6 f5-ns b db pa2 link dim mid-gray">British</a></li>
+      <li class="dib mr2"><a href="#" class="f6 f5-ns b db pa2 link dim mid-gray">Burmese</a></li>
+      <li class="dib mr2"><a href="#" class="f6 f5-ns b db pa2 link dim mid-gray">Burmilla</a></li>
+      <li class="dib mr2"><a href="#" class="f6 f5-ns b db pa2 link dim mid-gray">California</a></li>
+      <li class="dib mr2"><a href="#" class="f6 f5-ns b db pa2 link dim mid-gray">Chantilly</a></li>
+      <li class="dib mr2"><a href="#" class="f6 f5-ns b db pa2 link dim mid-gray">Chartreux</a></li>
+      <li class="dib mr2"><a href="#" class="f6 f5-ns b db pa2 link dim mid-gray">Chausie</a></li>
+      <li class="dib mr2"><a href="#" class="f6 f5-ns b db pa2 link dim mid-gray">Cheetoh</a></li>
+      <li class="dib mr2"><a href="#" class="f6 f5-ns b db pa2 link dim mid-gray">Colorpoint</a></li>
+      <li class="dib mr2"><a href="#" class="f6 f5-ns b db pa2 link dim mid-gray">Cornish</a></li>
+      <li class="dib mr2"><a href="#" class="f6 f5-ns b db pa2 link dim mid-gray">Cymric</a></li>
+      <li class="dib mr2"><a href="#" class="f6 f5-ns b db pa2 link dim mid-gray">Cyprus</a></li>
+    </ul>
+    """
+
+  'Links With Borders Inline':
+    'prefix': 'links-borders-inline'
+    'body': """
+    <ul class="list ph3 ph5-ns pv4">
+      <li class="dib mr1 mb2"><a href="#" class="f6 f5-ns b db pa2 link dim dark-gray ba b--black-20">Abyssinian</a></li>
+      <li class="dib mr1 mb2"><a href="#" class="f6 f5-ns b db pa2 link dim dark-gray ba b--black-20">Aegean</a></li>
+      <li class="dib mr1 mb2"><a href="#" class="f6 f5-ns b db pa2 link dim dark-gray ba b--black-20">Arabian</a></li>
+      <li class="dib mr1 mb2"><a href="#" class="f6 f5-ns b db pa2 link dim dark-gray ba b--black-20">Australian</a></li>
+      <li class="dib mr1 mb2"><a href="#" class="f6 f5-ns b db pa2 link dim dark-gray ba b--black-20">Asian</a></li>
+      <li class="dib mr1 mb2"><a href="#" class="f6 f5-ns b db pa2 link dim dark-gray ba b--black-20">Balinese</a></li>
+      <li class="dib mr1 mb2"><a href="#" class="f6 f5-ns b db pa2 link dim dark-gray ba b--black-20">Bambino</a></li>
+      <li class="dib mr1 mb2"><a href="#" class="f6 f5-ns b db pa2 link dim dark-gray ba b--black-20">Bengal</a></li>
+      <li class="dib mr1 mb2"><a href="#" class="f6 f5-ns b db pa2 link dim dark-gray ba b--black-20">Birman</a></li>
+      <li class="dib mr1 mb2"><a href="#" class="f6 f5-ns b db pa2 link dim dark-gray ba b--black-20">Bombay</a></li>
+      <li class="dib mr1 mb2"><a href="#" class="f6 f5-ns b db pa2 link dim dark-gray ba b--black-20">Brazilian</a></li>
+      <li class="dib mr1 mb2"><a href="#" class="f6 f5-ns b db pa2 link dim dark-gray ba b--black-20">British</a></li>
+      <li class="dib mr1 mb2"><a href="#" class="f6 f5-ns b db pa2 link dim dark-gray ba b--black-20">British</a></li>
+      <li class="dib mr1 mb2"><a href="#" class="f6 f5-ns b db pa2 link dim dark-gray ba b--black-20">British</a></li>
+      <li class="dib mr1 mb2"><a href="#" class="f6 f5-ns b db pa2 link dim dark-gray ba b--black-20">Burmese</a></li>
+      <li class="dib mr1 mb2"><a href="#" class="f6 f5-ns b db pa2 link dim dark-gray ba b--black-20">Burmilla</a></li>
+      <li class="dib mr1 mb2"><a href="#" class="f6 f5-ns b db pa2 link dim dark-gray ba b--black-20">California</a></li>
+      <li class="dib mr1 mb2"><a href="#" class="f6 f5-ns b db pa2 link dim dark-gray ba b--black-20">Chantilly</a></li>
+      <li class="dib mr1 mb2"><a href="#" class="f6 f5-ns b db pa2 link dim dark-gray ba b--black-20">Chartreux</a></li>
+      <li class="dib mr1 mb2"><a href="#" class="f6 f5-ns b db pa2 link dim dark-gray ba b--black-20">Chausie</a></li>
+      <li class="dib mr1 mb2"><a href="#" class="f6 f5-ns b db pa2 link dim dark-gray ba b--black-20">Cheetoh</a></li>
+      <li class="dib mr1 mb2"><a href="#" class="f6 f5-ns b db pa2 link dim dark-gray ba b--black-20">Colorpoint</a></li>
+      <li class="dib mr1 mb2"><a href="#" class="f6 f5-ns b db pa2 link dim dark-gray ba b--black-20">Cornish</a></li>
+      <li class="dib mr1 mb2"><a href="#" class="f6 f5-ns b db pa2 link dim dark-gray ba b--black-20">Cymric</a></li>
+      <li class="dib mr1 mb2"><a href="#" class="f6 f5-ns b db pa2 link dim dark-gray ba b--black-20">Cyprus</a></li>
+    </ul>
+    """
+
+  'Slab Stat':
+    'prefix': 'Slab Stat'
+    'body': """
+    <article class="pa3 pa5-ns" data-name="slab-stat">
+      <h1>Today</h1>
+      <dl class="dib mr5">
+        <dd class="f6 f5-ns b ml0">Closed Issues</dd>
+        <dd class="f3 f2-ns b ml0">1,024</dd>
+      </dl>
+      <dl class="dib mr5">
+        <dd class="f6 f5-ns b ml0">Open Issues</dd>
+        <dd class="f3 f2-ns b ml0">993</dd>
+      </dl>
+      <dl class="dib mr5">
+        <dd class="f6 f5-ns b ml0">Next Release</dd>
+        <dd class="f3 f2-ns b ml0">10-22</dd>
+      </dl>
+      <dl class="dib mr5">
+        <dd class="f6 f5-ns b ml0">Days Left</dd>
+        <dd class="f3 f2-ns b ml0">4</dd>
+      </dl>
+      <dl class="dib mr5">
+        <dd class="f6 f5-ns b ml0">Favorite Cat</dd>
+        <dd class="f3 f2-ns b ml0">All of Them</dd>
+      </dl>
+      <dl class="dib">
+        <dd class="f6 f5-ns b ml0">App Downloads</dd>
+        <dd class="f3 f2-ns b ml0">1,200</dd>
+      </dl>
+    </article>
+    """
+
+  'Title Text List':
+    'prefix': 'title-text-list'
+    'body': """
+    <ul class="list pl0">
+      <li class="pa3 pa4-ns bb b--black-10">
+        <b class="db f3 mb1">alignment</b>
+        <span class="f5 db lh-copy measure">
+          The positioning of text within the page margins. Alignment can be flush left, flush right, justified, or centered. Flush left and flush right are sometimes referred to as left justified and right justified.</span>
+      </li>
+      <li class="pa3 pa4-ns bb b--black-10">
+        <b class="db f3 mb1">
+          ascender
+        </b>
+        <span class="f5 db lh-copy measure">
+          The part of lowercase letters (such as k, b, and d) that ascends above the
+          x-height of the other lowercase letters in a face.
+        </span>
+      </li>
+      <li class="pa3 pa4-ns bb b--black-10">
+        <b class="db f3 mb1">
+          baseline
+        </b>
+        <span class="f5 db lh-copy measure">
+          The imaginary line on which the majority of the characters in a typeface rest.
+        </span>
+      </li>
+    </ul>
+    """
+
+  'Large Title Link List':
+    'prefix': 'large-title-link-list'
+    'body': """
+    <nav class="pa3 pa4-ns">
+      <a class="link dim black b f1 f-headline-ns tc db mb3 mb4-ns" href="#" title="Home">Site Name</a>
+      <div class="tc pb3">
+        <a class="link dim gray f6 f5-ns dib mr3" href="#" title="Home">Home</a>
+        <a class="link dim gray f6 f5-ns dib mr3" href="#" title="About">About</a>
+        <a class="link dim gray f6 f5-ns dib mr3" href="#" title="Store">Store</a>
+        <a class="link dim gray f6 f5-ns dib" href="#" title="Contact">Contact</a>
+      </div>
+    </nav>
+    """
+
+  'List Overflow':
+    'prefix': 'list-overflow'
+    'body': """
+    <nav class="ph3 ph5-ns pv4">
+      <div class="nowrap overflow-x-auto">
+        <a class="link dim gray f5 f4-ns dib mr3" href="#" title="Link 1">Link 1</a>
+        <a class="link dim gray f5 f4-ns dib mr3" href="#" title="Link 2">Link 2</a>
+        <a class="link dim gray f5 f4-ns dib mr3" href="#" title="Link 3">Link 3</a>
+        <a class="link dim gray f5 f4-ns dib mr3" href="#" title="Link 4">Link 4</a>
+        <a class="link dim gray f5 f4-ns dib mr3" href="#" title="Link 5">Link 5</a>
+        <a class="link dim gray f5 f4-ns dib mr3" href="#" title="Link 6">Link 6</a>
+        <a class="link dim gray f5 f4-ns dib mr3" href="#" title="Link 7">Link 7</a>
+        <a class="link dim gray f5 f4-ns dib mr3" href="#" title="Link 8">Link 8</a>
+        <a class="link dim gray f5 f4-ns dib mr3" href="#" title="Link 9">Link 9</a>
+        <a class="link dim gray f5 f4-ns dib mr3" href="#" title="Link 10">Link 10</a>
+        <a class="link dim gray f5 f4-ns dib mr3" href="#" title="Link 11">Link 11</a>
+        <a class="link dim gray f5 f4-ns dib mr3" href="#" title="Link 12">Link 12</a>
+        <a class="link dim gray f5 f4-ns dib mr3" href="#" title="Link 13">Link 13</a>
+        <a class="link dim gray f5 f4-ns dib mr3" href="#" title="Link 14">Link 14</a>
+        <a class="link dim gray f5 f4-ns dib mr3" href="#" title="Link 15">Link 15</a>
+        <a class="link dim gray f5 f4-ns dib mr3" href="#" title="Link 16">Link 16</a>
+        <a class="link dim gray f5 f4-ns dib mr3" href="#" title="Link 17">Link 17</a>
+        <a class="link dim gray f5 f4-ns dib mr3" href="#" title="Link 18">Link 18</a>
+        <a class="link dim gray f5 f4-ns dib mr3" href="#" title="Link 19">Link 19</a>
+        <a class="link dim gray f5 f4-ns dib mr3" href="#" title="Link 20">Link 20</a>
+      </div>
+    </nav>
+    """
+
+  'Logo Links Inline Collapse':
+    'prefix': 'logo-links-inline-collapse'
+    'body': """
+    <nav class="db dt-l w-100 border-box pa3 ph5-l">
+      <a class="db dtc-l v-mid mid-gray link dim w-100 w-25-l tc tl-l mb2 mb0-l" href="#" title="Home">
+        <img src="http://lorempixel.com/400/200/abstract" class="dib w2 h2 br-100" alt="Site Name">
+      </a>
+      <div class="db dtc-l v-mid w-100 w-75-l tc tr-l">
+        <a class="link dim dark-gray f6 f5-l dib mr3 mr4-l" href="#" title="Home">Home</a>
+        <a class="link dim dark-gray f6 f5-l dib mr3 mr4-l" href="#" title="How it Works">How it Works</a>
+        <a class="link dim dark-gray f6 f5-l dib mr3 mr4-l" href="#" title="Blog">Blog</a>
+        <a class="link dim dark-gray f6 f5-l dib mr3 mr4-l" href="#" title="Press">Press</a>
+        <a class="link dim dark-gray f6 f5-l dib" href="#" title="Contact">Contact</a>
+      </div>
+    </nav>
+    """
+
+  'Logo Links Inline':
+    'prefix': 'logo-links'
+    'body': """
+    <nav class="dt w-100 border-box pa3 ph5-ns">
+      <a class="dtc v-mid mid-gray link dim w-25" href="#" title="Home">
+        <img src="http://lorempixel.com/400/200/abstract" class="dib w2 h2 br-100" alt="Site Name">
+      </a>
+      <div class="dtc v-mid w-75 tr">
+        <a class="link dim dark-gray f6 f5-ns dib mr3 mr4-ns" href="#" title="About">Services</a>
+        <a class="link dim dark-gray f6 f5-ns dib mr3 mr4-ns" href="#" title="Store">Blog</a>
+        <a class="link dim dark-gray f6 f5-ns dib" href="#" title="Contact">Join Us</a>
+      </div>
+    </nav>
+    """
+
+  'Title Link List':
+    'prefix': 'title-link-list'
+    'body': """
+    <nav class="pa3 pa4-ns">
+      <a class="link dim black b f6 f5-ns dib mr3" href="#" title="Home">Site Name</a>
+      <a class="link dim gray    f6 f5-ns dib mr3" href="#" title="Home">Home</a>
+      <a class="link dim gray    f6 f5-ns dib mr3" href="#" title="About">About</a>
+      <a class="link dim gray    f6 f5-ns dib mr3" href="#" title="Store">Store</a>
+      <a class="link dim gray    f6 f5-ns dib" href="#" title="Contact">Contact</a>
+    </nav>
+    """
