@@ -1,4 +1,4 @@
-".source.js":
+".source.js, .source.jsx":
 
   'News Card':
     'prefix': 'news-card'
