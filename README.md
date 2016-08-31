@@ -14,7 +14,7 @@ Key Features:
 
 ## Components
 
-All components also have autocompletion support for extra options.
+All [components](http://tachyons.io/components/) also have autocompletion support for extra options.
 
 ### Articles
   - `large-title-text`
@@ -42,9 +42,30 @@ All components also have autocompletion support for extra options.
   - `fixed-semi-transparent`
   - `rounded-avatar-title`
 
-more to come ... (or happy for a pr!)
+### Layout
+  - `centered-container`
+  - `flag-object-collapse`
+  - `flag-object`
+  - `four-column-collapse-two`
+  - `four-column`
+  - `two-column-collapse-one`
+  - `two-column`
 
-### Notes
+### Lists
+  - `border-spaced`
+  - `border-tight`
+  - `large-links-inline`
+  - `links-inline`
+  - `links-borders-inline`
+  - `slab-stat`
+  - `title-text-list`
+
+### Nav
+  - `large-title-link-list`
+  - `list-overflow`
+  - `logo-links-inline-collapse`
+  - `logo-links`
+  - `title-link-list`
 
 
 [1]: http://tachyons.io/
