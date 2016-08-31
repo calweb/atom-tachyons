@@ -5,6 +5,11 @@
   "activationCommands": {
     "bootstrap": "toggle"
   },
+  "keywords": [
+    "atom",
+    "tachyons",
+    "css"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/calweb/atom-tachyons.git"
