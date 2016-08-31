@@ -553,7 +553,7 @@
     """
 
   'Slab Stat':
-    'prefix': 'Slab Stat'
+    'prefix': 'slab-stat'
     'body': """
     <article class="pa3 pa5-ns" data-name="slab-stat">
       <h1>Today</h1>
