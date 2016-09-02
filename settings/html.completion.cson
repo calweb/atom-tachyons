@@ -26,6 +26,30 @@
       'circle-avatar-title'
       'fixed-semi-transparent'
       'rounded-avatar-title'
+      ## Layout
+      'centered-container'
+      'flag-object-collapse'
+      'flag-object'
+      'four-column-collapse-two'
+      'four-column'
+      'two-column-collapse-one'
+      'two-column'
+      ## Lists
+      'border-spaced'
+      'border-tight'
+      'large-links-inline'
+      'links-inline'
+      'links-borders-inline'
+      'slab-stat-large'
+      'slab-stat-small'
+      'slab-stat'
+      'title-text-list'
+      ## Nav
+      'large-title-link-list'
+      'list-overflow'
+      'logo-links-inline-collapse'
+      'logo-links'
+      'title-link-list'
 
       # Classes
       'border-box'
