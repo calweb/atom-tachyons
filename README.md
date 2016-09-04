@@ -58,6 +58,8 @@ All [components][2] also have autocompletion support for extra options.
   - `large-links-inline`
   - `links-inline`
   - `links-borders-inline`
+  - `slab-stat-large`
+  - `slab-stat-small`
   - `slab-stat`
   - `title-text-list`
 
