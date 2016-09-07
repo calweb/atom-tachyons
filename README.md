@@ -21,15 +21,21 @@ All [components][2] also have autocompletion support for extra options.
   - `large-title-text`
   - `left-title-top`
   - `left-title`
+  - `photo-essay`
   - `title-text-image`
   - `title-text`
 
-### Collections
+### Cards
+  - `album-centered`
+  - `album-left`
   - `news-card`
   - `product-card`
   - `profile-card-title`
   - `profile-card`
   - `text-card`
+
+### Collections
+  - `albums`
 
 ### Footers
   - `simple-large-type`
