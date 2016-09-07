@@ -1,6 +1,6 @@
 {
   "name": "atom-tachyons",
-  "version": "1.3.1",
+  "version": "1.3.2",
   "description": "Tachyon Support with snippets and autocompletion.",
   "activationCommands": {
     "bootstrap": "toggle"
