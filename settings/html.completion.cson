@@ -4,13 +4,32 @@
 
       # Snippets
       ## Articles
+      'feature'
       'full-bleed-background'
       'large-title-text'
       'left-title-top'
       'left-title'
+      'photo-essay'
       'title-text-image'
       'title-text'
-      ## Collections
+      ## Banners
+      'basic'
+      ## Buttons
+      'btn-solid'
+      'btn-thin'
+      'btn-normal'
+      'btn-thick'
+      'btn-pill-solid'
+      'btn-pill-thin'
+      'btn-pill-normal'
+      'btn-pill-thick'
+      'btn-pill-grow-solid'
+      'btn-pill-grow-thin'
+      'btn-pill-grow-normal'
+      'btn-pill-grow-thick'
+      ## Cards
+      'album-centered'
+      'album-left'
       'news-card'
       'product-card'
       'profile-card-title'
