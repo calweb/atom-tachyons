@@ -27,6 +27,9 @@ All [components][2] also have autocompletion support for extra options.
   - `title-text-image`
   - `title-text`
 
+### Banners
+  - `banner-basic`
+
 ### Buttons
   - `btn-{solid,thin,normal,thick}` (eg `btn-solid`)
   - `btn-pill-{solid,thin,normal,thick}` (eg `btn-pill-solid`)
