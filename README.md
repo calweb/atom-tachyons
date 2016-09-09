@@ -17,11 +17,13 @@ apm install atom-tachyons
 All [components][2] also have autocompletion support for extra options.
 
 ### Articles
+  - `feature`
   - `full-bleed-background`
   - `large-title-text`
   - `left-title-top`
   - `left-title`
   - `photo-essay`
+  - `single-column-large-title`
   - `title-text-image`
   - `title-text`
 

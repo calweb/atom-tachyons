@@ -181,11 +181,64 @@
     </article>
     """
 
+  'Feature':
+    'prefix': 'feature'
+    'body': """
+    <article className="athelas">
+      <div className="vh-100 dt w-100 tc bg-dark-gray white cover" style={{background:"url(https://hd.unsplash.com/uploads/1413152676137eccd463c/61606b7b) no-repeat center;"}}>
+        <div className="dtc v-mid">
+          <header className="white-70">
+            <h2 className="f6 fw1 ttu tracked mb2 lh-title">Issue Six</h2>
+            <h3 className="f6 fw1 lh-title">Summer MMXVI</h3>
+          </header>
+          <h1 className="f1 f-headline-l fw1 i white-60">The Chronicles</h1>
+          <blockquote className="ph0 mh0 measure f4 lh-copy center">
+            <p className="fw1 white-70">
+              It's the space you put between the notes that make the music.
+            </p>
+            <cite className="f6 ttu tracked fs-normal">Massimo Vignelli</cite>
+          </blockquote>
+        </div>
+      </div>
+      <div className="center measure-wide f5 pv5 lh-copy ph2">
+        <h1 className="f1 lh-title">The repercussion of ugliness is endless</h1>
+        <p>
+          The choice of paper size is one of the  rst of any given work to be printed. There are two basic paper size systems in the world: the international A sizes, and the American sizes.
+        </p>
+        <p>
+          The international Standard paper sizes, called the A series, is based
+          on a golden rectangle, the divine proportion. It is extremely handsome
+          and practical as well. It is adopted by many countries around the world
+          and is based on the German DIN metric Standards. The United States uses
+          a basic letter size (8 1/2 x 11”) of ugly proportions, and results in
+          complete chaos with an endless amount of paper sizes. It is a
+          by-product of the culture of free enterprise, competition and waste.
+          Just another example of the misinterpretations of freedom.
+        </p>
+        <p>
+          These are the basic DIN sizes in mm. for : A0, 841x1189 - A1, 594x841 -
+          A2, 420x594 - A3, 297x420 - A4, 210x297 - A5, 148x210 - A6, 105 x148 -
+          A7, 74x 105 - A8, 52x74 - A9, 37x52 - A10, 26x37.
+        </p>
+        <p>
+          The A4 is the basic size for stationary. Two thirds of it is a square,
+          a nice economical happenstance resulting from the golden rectangle.
+          It is one of the reasons we tend to use as much
+          as possible the DIN sizes: proportions are always leading to other nice proportions.
+        </p>
+        <p>
+          This does not happen with the American basic size which leads to nothing. I counted 28 different standard sizes in USA!. The only reason we use it is because everybody in USA uses it, all stationary in USA is that size, so are manilla folders,  les and of ce equipment!
+          The repercussion of ugliness is endless.
+        </p>
+      </div>
+    </article>
+    """
+
   'Full Bleed Background':
     'prefix': 'full-bleed-background'
     'body': """
     <article data-name="article-full-bleed-background">
-      <div className="cf" style="background: url(http://mrmrs.io/photos/12.jpg) no-repeat center center fixed; background-size: cover;">
+      <div className="cf" style={{background: "url(http://mrmrs.io/photos/12.jpg) no-repeat center center fixed;", backgroundSize: "cover;"}}>
         <div className="fl pa3 pa4-ns bg-white black-70 measure-narrow f3 times">
           <header className="bb b--black-70 pv4">
             <h3 className="f2 fw7 ttu tracked lh-title mt0 mb3 avenir">Prasat Suor Prat</h3>
@@ -262,7 +315,7 @@
     <article className="helvetica pb5">
       <header className="vh-100 bg-light-pink dt w-100">
         <div
-          style="background:url(http://mrmrs.io/photos/display.jpg) no-repeat center right;background-size: cover;"
+          style={{background: "url(http://mrmrs.io/photos/display.jpg) no-repeat center right;",backgroundSize: "cover;"}}
           className="dtc v-mid cover ph3 ph4-m ph5-l">
           <h1 className="f2 f-subheadline-l measure lh-title fw9">A Night Taking Photos at San Francisco’s Spooky Ruins of the Sutro Baths</h1>
           <h2 className="f6 fw6 black">A story by Nancy Drew</h2>
@@ -320,6 +373,51 @@
               <img className="db w-100" src="http://mrmrs.io/photos/013.jpg" />
             </div>
           </div>
+        </div>
+      </div>
+    </article>
+    """
+
+  'Single Column Large Title':
+    'prefix': 'single-column-large-title'
+    'body': """
+    <article className="baskerville pb5">
+      <header className="avenir tc-l ph3 ph4-ns pt4 pt5-ns">
+        <h1 className="f3 f2-m f-subheadline-l measure lh-title fw1 mt0">A Night of Taking Photos at the Spooky Ruins of the Sutro Baths</h1>
+        <time className="f5 f4-l db fw1 baskerville mb4"> March 19th, 2015</time>
+        <img className="w-100 dib measure f3" src="http://mrmrs.io/photos/009.jpg" alt="A photo of sutro baths by Adam Morse"/>
+      </header>
+      <div className="ph3 ph4-m ph5-l">
+        <p className="f4 mb4 center measure lh-copy">
+          On <time>March 14, 1896</time>, the Sutro Baths were opened to the public as the world's largest indoor swimming pool establishment. </p>
+        <div className="measure db center f5 f4-ns lh-copy">
+          <img className="db w-100 mt4 mt5-ns" src="http://mrmrs.io/photos/013.jpg" />
+          <p>
+            Before it burned to the ground, the structure filled a small beach
+            inlet below the Cliff House, also owned by Adolph Sutro at the time.
+            Shortly after closing, a fire in 1966 destroyed the building
+            while it was in the process of being demolished.
+          </p>
+          <img className="db w-100 mt4 mt5-ns" src="http://mrmrs.io/photos/012.jpg" />
+          <p>
+            During high tides, water would flow directly into the pools from the
+            nearby ocean, recycling the two million US gallons of water in about an hour.
+          </p>
+          <img className="db w-100 mt4 mt5-ns" src="http://mrmrs.io/photos/010.jpg" />
+          <p>
+            All that remains
+            of the site are concrete walls, blocked off stairs and
+            passageways, and a tunnel with a deep crevice in the middle. The
+            cause of the fire was arson. Shortly afterwards, the developer
+            left San Francisco and claimed insurance money.
+          </p>
+          <img className="db w-100 mt4 mt5-ns" src="http://mrmrs.io/photos/011.jpg" />
+          <p>
+            During low tides, a powerful turbine water pump,
+            built inside a cave at sea level, could be switched on from a control
+            room and could fill the tanks at a rate of 6,000 US gallons a minute,
+            recycling all the water in five hours.
+          </p>
         </div>
       </div>
     </article>
