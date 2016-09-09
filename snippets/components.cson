@@ -1,5 +1,68 @@
 ".text.html":
 
+  'Button Solid':
+    'prefix': 'btn-solid'
+    'body': """
+    <a class="f6 link dim br2 ph3 pv2 mb2 dib white ${1:bg-black}" href="#0">${2:Button Text}</a>
+    """
+  'Button Thin':
+    'prefix': 'btn-thin'
+    'body': """
+    <a class="f6 link dim br2 ba ph3 pv2 mb2 dib ${1:black}" href="#0">${2:Button Text}</a>
+    """
+  'Button Normal':
+    'prefix': 'btn-normal'
+    'body': """
+    <a class="f6 link dim br2 ba bw1 ph3 pv2 mb2 dib ${1:black}" href="#0">${2:Button Text}</a>
+    """
+  'Button Thick':
+    'prefix': 'btn-thick'
+    'body': """
+    <a class="f6 link dim br2 ba bw2 ph3 pv2 mb2 dib ${1:black}" href="#0">${2:Button Text}</a>
+    """
+
+  'Button Pill Solid':
+    'prefix': 'btn-pill-solid'
+    'body': """
+    <a class="f6 link dim br-pill ph3 pv2 mb2 dib white ${1:bg-black}" href="#0">${2:Button Pill Text}</a>
+    """
+  'Button Pill Thin':
+    'prefix': 'btn-pill-thin'
+    'body': """
+    <a class="f6 link dim br-pill ba ph3 pv2 mb2 dib ${1:black}" href="#0">${2:Button Pill Text}</a>
+    """
+  'Button Pill Normal':
+    'prefix': 'btn-pill-normal'
+    'body': """
+    <a class="f6 link dim br-pill ba bw1 ph3 pv2 mb2 dib ${1:black}" href="#0">${2:Button Pill Text}</a>
+    """
+  'Button Pill Thick':
+    'prefix': 'btn-pill-thick'
+    'body': """
+    <a class="f6 link dim br-pill ba bw2 ph3 pv2 mb2 dib ${1:black}" href="#0">${2:Button Pill Text}</a>
+    """
+
+  'Button Pill Grow Solid':
+    'prefix': 'btn-pill-grow-solid'
+    'body': """
+    <a class="f6 grow link dim br-pill ph3 pv2 mb2 dib white ${1:bg-black}" href="#0">${2:Button Pill Grow Text}</a>
+    """
+  'Button Pill Grow Thin':
+    'prefix': 'btn-pill-grow-thin'
+    'body': """
+    <a class="f6 grow link dim br-pill ba ph3 pv2 mb2 dib ${1:black}" href="#0">${2:Button Pill Grow Text}</a>
+    """
+  'Button Pill Grow Normal':
+    'prefix': 'btn-pill-grow-normal'
+    'body': """
+    <a class="f6 grow link dim br-pill ba bw1 ph3 pv2 mb2 dib ${1:black}" href="#0">${2:Button Pill Grow Text}</a>
+    """
+  'Button Pill Grow Thick':
+    'prefix': 'btn-pill-grow-thick'
+    'body': """
+    <a class="f6 grow link dim br-pill ba bw2 ph3 pv2 mb2 dib ${1:black}" href="#0">${2:Button Pill Grow Text}</a>
+    """
+
   'Album Centered':
     'prefix': 'album-centered'
     'body': """

@@ -25,6 +25,11 @@ All [components][2] also have autocompletion support for extra options.
   - `title-text-image`
   - `title-text`
 
+### Buttons
+  - `btn-{solid,thin,normal,thick}` (eg `btn-solid`)
+  - `btn-pill-{solid,thin,normal,thick}` (eg `btn-pill-solid`)
+  - `btn-pill-grow-{solid,thin,normal,thick}` (eg `btn-pill-grow-solid`)
+
 ### Cards
   - `album-centered`
   - `album-left`
